@@ -1,0 +1,15 @@
+BYTE (=unsigned char) : 0~255
+CHAR (=signed char) : -128~127
+INT(=int) : 16 or 32 bit (machine dependent)
+INT8 (=signed char) : -128~127
+INT16 (=short) : -32768~32767
+INT32 (=long) : -2147483648~2147483647
+LONG (=long) : -2147483648~2147483647 (machine dependent)
+SHORT (=short) : -32768~32767
+TCHAR (=char or INT16) : 8bit or 16bit char, _UNICODE 정의에 따라 다름
+UINT (=unsigned int) : 16 or 32bit (0~65535:16bit) (machine dependent)
+UINT8 (=unsigned char) : 0~255
+UINT16 (=unsigned short) : 0~65535
+UINT32 (=unsigned long) : 0~4294967295
+ULONG (=unsigned long) : 0~4294967295 (machine dependent)
+USHORT (=unsigned short): 0~65535
